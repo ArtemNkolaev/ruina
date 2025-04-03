@@ -1,0 +1,201 @@
+.text{
+    color: red;
+    font-family: soup;
+}
+
+@font-face {
+    font-family: soup;
+    src: url(./fonts/soup_1.ttf);
+}
+
+header {
+   background-color: #ead5ba;
+}
+
+body {
+    background-color: #f8f4e8;
+    margin: 0;
+    padding: 0;
+}
+
+.headText {
+    font-family: soup;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.exercises {
+    
+    font-family: soup;
+    font-size: xx-large;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #ead5ba;
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.table {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+  
+  }
+
+div {
+    text-align:center
+}
+div ul {
+    display:inline-block
+}
+
+
+.input {
+    border-style: none;
+    background-color: #ead5ba;
+    border-radius: 10px;
+    margin: 50px;
+    margin-top:100px;
+    font-size: large;
+    padding: 10px;
+    font-family: soup;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+footer {  
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+
+
+.ansBut {
+    font-family: soup;
+    border-style: none;
+    background-color: #ead5ba;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+}
+
+
+.mainText {
+    font-family: soup;
+    text-align: center;
+    padding-top: 78px;
+}
+
+.msgg{
+    font-family: soup;
+    text-align: center;
+    font-size: x-large;
+    position: absolute;
+    margin-top:400px ;
+    margin-left: 145px;
+}
+
+
+.arrow {
+    font-family: soup;
+    position: absolute;
+    padding-left: 40px;
+    align-items: center;
+    font-size: 70px;
+    margin: 0px;
+    color: black;
+}
+
+
+.readyBut {
+    background-color: #ead5ba;
+    font-family: soup;
+    border-style: none;
+    margin: 50px;
+    margin-top: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: x-large;
+    
+}
+
+
+.showAnswer {
+    font-family: soup;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    margin-top:-34px;
+    background-color: #f8f4e8;
+    border-style: none;
+}
+
+
+
+.trAnsw {
+    display: none;
+    padding: 10px;
+    font-family: soup;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.b-show {
+    display: block;
+    animation: showBlock 0.5s linear forwards;
+  }
+  
+  @keyframes showBlock {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.message{
+    
+    font-family: soup;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 370px;
+}
+
+.left {
+    font-family: soup;
+    font-size: 24px;
+}
